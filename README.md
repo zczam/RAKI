@@ -1,4 +1,10 @@
-This program is an implementation of RAKI (Akcakaya et al 2019).
+This program is an implementation of RAKI (Akcakaya et al 2019). If you use this code in one of your publications, please cite the following papers:
+
+Akçakaya, M., Moeller, S., Weingärtner, S., & Uğurbil, K. (2019). Scan‐specific robust artificial‐neural‐networks for k‐space interpolation (RAKI) reconstruction: Database‐free deep learning for fast imaging. Magnetic resonance in medicine, 81(1), 439-453.
+
+Zhang, C., Weingärtner, S., Moeller, S., Uğurbil, K., & Akçakaya, M. (2018, May). Fast GPU Implementation of a Scan-Specific Deep Learning Reconstruction for Accelerated Magnetic Resonance Imaging. In 2018 IEEE International Conference on Electro/Information Technology (EIT) (pp. 0399-0403). IEEE.
+
+Zhang, C., Moeller, S., Weingärtner, S., Uğurbil, K., & Akçakaya, M. (2018, October). Accelerated Simultaneous Multi-Slice MRI using Subject-Specific Convolutional Neural Networks. In 2018 52nd Asilomar Conference on Signals, Systems, and Computers (pp. 1636-1640). IEEE.
 
 06/14/2019: 3-layered RAKI available
 
