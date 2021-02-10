@@ -143,9 +143,9 @@ if np.size(indic)==0:
     ACS = sio.loadmat(matfn)
     ACS = ACS['ACS']     
     normalize = 0.015/np.max(abs(ACS[:])) 
-    ACS = np.multiply(ACS,normalize*scaling)
+    ACS = np.multiply(ACS,normalize)
 
-    kspace = np.multiply(kspace,scaling)
+    kspace = np.multiply(kspace)
     [ACS_dim_X, ACS_dim_Y, ACS_dim_Z] = np.shape(ACS)
     ACS_re = np.zeros([ACS_dim_X,ACS_dim_Y,ACS_dim_Z*2])
     ACS_re[:,:,0:no_ch] = np.real(ACS)
