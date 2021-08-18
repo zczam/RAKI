@@ -1,3 +1,4 @@
+# © 2021 Regents of the University of Minnesota. Academic and Research Use Only.
 
 #import print_function
 import tensorflow as tf
