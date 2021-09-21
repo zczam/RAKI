@@ -1,4 +1,13 @@
 # © 2021 Regents of the University of Minnesota. Academic and Research Use Only.
+# RAKI is copyrighted by Regents of the University of Minnesota and covered by US 16/603,336 and 16/858,922. 
+# Regents of the University of Minnesota will license the use of <NAME OF SOFTWARE> solely for educational 
+# and research purposes by non-profit institutions and US government agencies only. For other proposed uses, 
+# contact umotc@umn.edu. The software may not be sold or redistributed without prior approval. One may make 
+# copies of the software for their use provided that the copies, are not sold or distributed, are used under 
+# the same terms and conditions. As unestablished research software, this code is provided on an "as is'' 
+# basis without warranty of any kind, either expressed or implied. The downloading, or executing any part of 
+# this software constitutes an implicit agreement to these terms. These terms and conditions are subject to 
+# change at any time without prior notice.
 
 #import print_function
 import tensorflow.compat.v1 as tf
